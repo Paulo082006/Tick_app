@@ -91,7 +91,7 @@ class CreditsPage extends StatelessWidget {
                 ),
                 const SizedBox(height: 5),
                 TextButton(
-                  onPressed: () => _launchUrl('https://fonts.google.com/icons'), // Exemplo de link
+                  onPressed: () => _launchUrl('https://fonts.google.com/icons'), 
                   child: const Text(
                     'Ícones: Google Material Icons',
                     style: TextStyle(fontSize: 16, color: Colors.blue),
